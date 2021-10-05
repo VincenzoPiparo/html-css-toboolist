@@ -3,17 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container{
-
-    background-color: red;
-    margin: auto;
-    border-color: #f6f8f9;
-    width: 70%;
-    height: auto;
+/* BODY */
+body{
+    background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
-
+/* HEADER */
+header{
+    background-color: white;
+}
+/* LOGO AND LOGO TEXT */
 .logo{
     display: inline-block;
     width: 70px;
@@ -29,26 +29,162 @@
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* CONTAINER */
+.todolist {
+    width: 70%;
+    background-color: #f6f8f9;
+    margin: 20px auto;
+    height: 50px;
+}
 
+/* BOTTON */
 .btn{
+    display: inline-block;
     border: 1px solid #47adf1;
     padding: 7px 15px;
     border-radius: 10px;
     background-color: #47adf1;;
-    
-
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
 }
 
+
 .btn-white{
+    display: inline-block;
     border: 1px solid #dee1e4;
     padding: 7px 15px;
     border-radius: 10px;
     color: #cdd2d6;
 }
 
+/* LIST */
+.list2{
+    width: 100%;
+    background-color: white;
+    margin-left: 00px;
+    
+}
+
 .tasks{
-    margin-left: 300px;
-    margin-top: 30px;
     list-style-type: none;
     padding: 7px 15px;
+    margin-left: 50px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding-top: 10px;
+}
+
+/* ENTITYS */
+.entity{
+    display: inline-block;
+    border: 1px solid #6fc6b2;
+    width: 17px;
+    height: 22px;
+    font-size: 16px;
+    border-radius: 50%;
+    padding-left: 2px;
+    
+}
+
+.cross{
+    display: inline-block;
+    border: 1px solid #eb5851;
+    width: 17px;
+    height: 22px;
+    font-size: 16px;
+    border-radius: 50%;
+    padding-left: 2px;
+    
+}
+
+.heavenly{
+    width: 70%;
+    background-color:#45abea;
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+}
+
+/* COLOR BOX */
+.purple{ 
+    width: 70%;
+    background-color:#9c72e4;
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+}
+
+.green{
+    width: 70%;
+    background-color:#64c0a9;
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+    
+}
+
+.brown{
+    width: 70%;
+    background-color:#f29e33;
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+}
+
+.pink{
+    width: 70%;
+    background-color:#d863a1;
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+}
+
+.sand{
+    width: 70%;
+    background-color:#b0c926;
+    margin-top: 50px;
+    height: 50px;
+    padding-top: 6px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
 }
