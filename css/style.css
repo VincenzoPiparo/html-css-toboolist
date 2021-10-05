@@ -5,10 +5,13 @@
 }
 
 .container{
-    display: inline-block;
-    background-color: #f6f8f9;
-    margin-left: 250px;
-    margin-top: 70px;
+
+    background-color: red;
+    margin: auto;
+    border-color: #f6f8f9;
+    width: 70%;
+    height: auto;
+    
 }
 
 .logo{
@@ -32,6 +35,7 @@
     padding: 7px 15px;
     border-radius: 10px;
     background-color: #47adf1;;
+    
 
 }
 
@@ -40,5 +44,11 @@
     padding: 7px 15px;
     border-radius: 10px;
     color: #cdd2d6;
+}
 
+.tasks{
+    margin-left: 300px;
+    margin-top: 30px;
+    list-style-type: none;
+    padding: 7px 15px;
 }
